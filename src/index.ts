@@ -64,7 +64,7 @@ async function setupViewer(){
     // This must be called once after all plugins are added.
     viewer.renderer.refreshPipeline()
 
-    // Import and add a GLB file.
+    // Import and add a GLB file. 
     await viewer.load("./assets/classic-watch.glb")
 
     // Load an environment map if not set in the glb file
